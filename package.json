@@ -1,0 +1,9 @@
+{
+  "name": "outsmartpest-static",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static HTML/CSS/Vanilla JS redesign scaffold for outsmartpest.com",
+  "scripts": {
+    "start": "node -e \"console.log('Open public/index.html in your browser (or use any static server).')\""
+  }
+}
