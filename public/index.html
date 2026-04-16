@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Outsmart Pest Control | Pest Control Services</title>
+    <meta name="description" content="Outsmart Pest Control — trusted, local pest solutions for homes and businesses." />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#" aria-label="Outsmart Pest Control home">
+          <span class="brand-mark" aria-hidden="true">OP</span>
+          <span class="brand-text">
+            <strong>Outsmart</strong><span>Pest Control</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="sr-only">Menu</span>
+          </button>
+
+          <ul id="primary-nav" class="nav-list" data-nav-list>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#how">How it works</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a class="btn btn-small" href="#quote">Get a quote</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-cta">
+          <a class="btn btn-ghost btn-small" href="tel:+10000000000">Call</a>
+          <a class="btn btn-small" href="#quote">Request service</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Local • Reliable • Proactive</p>
+            <h1>Outsmart pests before they become a problem.</h1>
+            <p class="lead">
+              Practical, preventative pest control for homes and businesses. Fast scheduling, clear communication,
+              and treatments designed for long-term results.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn" href="#quote">Get a free quote</a>
+              <a class="btn btn-ghost" href="#services">Explore services</a>
+            </div>
+
+            <ul class="trust-points">
+              <li>Upfront pricing</li>
+              <li>Pet & family mindful options</li>
+              <li>Responsive local team</li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Quick quote form">
+            <div class="card">
+              <h2 class="card-title">Request a quote</h2>
+              <p class="card-subtitle">We’ll follow up fast to confirm details.</p>
+
+              <form id="quote-form" class="form">
+                <label>
+                  <span>Name</span>
+                  <input name="name" autocomplete="name" required placeholder="Your name" />
+                </label>
+
+                <label>
+                  <span>Phone</span>
+                  <input name="phone" autocomplete="tel" required placeholder="(555) 555-5555" />
+                </label>
+
+                <label>
+                  <span>ZIP code</span>
+                  <input name="zip" inputmode="numeric" required placeholder="e.g., 12345" />
+                </label>
+
+                <label>
+                  <span>Issue</span>
+                  <select name="issue" required>
+                    <option value="" selected disabled>Select pest type</option>
+                    <option>Ants</option>
+                    <option>Roaches</option>
+                    <option>Rodents</option>
+                    <option>Spiders</option>
+                    <option>Termites</option>
+                    <option>Other</option>
+                  </select>
+                </label>
+
+                <button class="btn btn-block" type="submit">Submit</button>
+                <p class="fineprint">
+                  By submitting, you agree to be contacted about service. No spam.
+                </p>
+              </form>
+
+              <div class="form-result" id="quote-result" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <header class="section-header">
+            <h2>Services</h2>
+            <p>Seasonal protection, targeted solutions, and ongoing prevention plans.</p>
+          </header>
+
+          <div class="grid cards">
+            <article class="service card">
+              <h3>General pest control</h3>
+              <p>Barrier treatments and targeted interior work to reduce active pests and prevent re-entry.</p>
+              <ul class="checklist">
+                <li>Inspection + plan</li>
+                <li>Entry point mitigation</li>
+                <li>Follow-up options</li>
+              </ul>
+            </article>
+
+            <article class="service card">
+              <h3>Rodent control</h3>
+              <p>Identify access points, set traps, and implement exclusion recommendations.</p>
+              <ul class="checklist">
+                <li>Activity assessment</li>
+                <li>Trapping strategy</li>
+                <li>Prevention guidance</li>
+              </ul>
+            </article>
+
+            <article class="service card">
+              <h3>Termite & inspections</h3>
+              <p>Inspection-first approach to understand risk and recommend next steps.</p>
+              <ul class="checklist">
+                <li>Thorough inspection</li>
+                <li>Clear reporting</li>
+                <li>Treatment options</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="how">
+        <div class="container">
+          <header class="section-header">
+            <h2>How it works</h2>
+            <p>Simple steps. No confusion. Clear next actions.</p>
+          </header>
+
+          <ol class="steps">
+            <li>
+              <h3>Tell us what’s going on</h3>
+              <p>Share the pest type (or symptoms) and where you’re seeing activity.</p>
+            </li>
+            <li>
+              <h3>We inspect and treat</h3>
+              <p>We focus on the source, conditions, and access points—not just the symptoms.</p>
+            </li>
+            <li>
+              <h3>Prevent repeat issues</h3>
+              <p>We’ll recommend follow-ups and prevention steps tailored to your property.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container">
+          <header class="section-header">
+            <h2>Customer reviews</h2>
+            <p>Replace these placeholders with real reviews once you provide them.</p>
+          </header>
+
+          <div class="grid cards">
+            <figure class="card quote">
+              <blockquote>
+                “On time, professional, and explained everything clearly. Huge improvement in a week.”
+              </blockquote>
+              <figcaption>— Homeowner</figcaption>
+            </figure>
+
+            <figure class="card quote">
+              <blockquote>
+                “Quick scheduling and honest recommendations. Didn’t upsell—just solved the issue.”
+              </blockquote>
+              <figcaption>— Local business</figcaption>
+            </figure>
+
+            <figure class="card quote">
+              <blockquote>
+                “Great communication and follow-up. We’re signing up for ongoing service.”
+              </blockquote>
+              <figcaption>— Resident</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="faq">
+        <div class="container">
+          <header class="section-header">
+            <h2>FAQ</h2>
+            <p>Common questions customers ask before scheduling.</p>
+          </header>
+
+          <div class="accordion" data-accordion>
+            <details class="card">
+              <summary>Do you offer recurring service plans?</summary>
+              <div class="details-body">
+                <p>Yes. We can set up seasonal or recurring visits based on pest pressure and your property.</p>
+              </div>
+            </details>
+
+            <details class="card">
+              <summary>Is it safe for pets and kids?</summary>
+              <div class="details-body">
+                <p>We prioritize low-impact approaches when appropriate and provide clear re-entry guidance.</p>
+              </div>
+            </details>
+
+            <details class="card">
+              <summary>How soon can you come out?</summary>
+              <div class="details-body">
+                <p>Availability varies. Submit the quote form and we’ll confirm the earliest options.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="quote">
+        <div class="container">
+          <div class="cta card">
+            <div>
+              <h2>Ready to get started?</h2>
+              <p>Request service and we’ll follow up to confirm the details and schedule.</p>
+            </div>
+            <div class="cta-actions">
+              <a class="btn" href="#main">Request a quote</a>
+              <a class="btn btn-ghost" href="tel:+10000000000">Call now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-mark" aria-hidden="true">OP</span>
+            <strong>Outsmart Pest Control</strong>
+          </div>
+          <p class="muted">
+            Replace address, service area, and business details with your real info.
+          </p>
+        </div>
+
+        <div class="footer-cols">
+          <div>
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#quote">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="tel:+10000000000">(000) 000-0000</a></li>
+              <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+              <li><span class="muted">Mon–Fri: 8am–5pm</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <small>© <span id="year"></span> Outsmart Pest Control. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
